@@ -522,6 +522,22 @@ const PHONES = [
     accentName: 'Jet Black',
   },
 
+  {
+    id: 'oppo-find-n6',
+    brand: 'OPPO',
+    name: 'Find N6 (folded)',
+    heightMm: 159.87,
+    widthMm: 74.12,
+    thicknessMm: 8.93,
+    weightG: 225,
+    screenInch: 6.62, // cover (outer) display; main folding display is 8.12"
+    screenRes: [1140, 2616],
+    batteryMah: 6000,
+    cornerMm: 14,
+    accent: '#5a5d63', // Stellar Titanium
+    accentName: 'Stellar Titanium',
+  },
+
   // --- Xiaomi 17 line ---
   {
     id: 'xiaomi-17-pro-max',
@@ -567,6 +583,38 @@ const PHONES = [
     cornerMm: 14,
     accent: '#e3a7b4', // Alpine Pink
     accentName: 'Alpine Pink',
+  },
+
+  // --- OnePlus 15 line ---
+  {
+    id: 'oneplus-15',
+    brand: 'OnePlus',
+    name: '15',
+    heightMm: 161.42,
+    widthMm: 76.67,
+    thicknessMm: 8.1,
+    weightG: 211,
+    screenInch: 6.78,
+    screenRes: [1272, 2772],
+    batteryMah: 7300,
+    cornerMm: 14,
+    accent: '#22242a', // Infinite Black
+    accentName: 'Infinite Black',
+  },
+  {
+    id: 'oneplus-15t',
+    brand: 'OnePlus',
+    name: '15T',
+    heightMm: 150.56,
+    widthMm: 71.82,
+    thicknessMm: 8.48,
+    weightG: 194,
+    screenInch: 6.32,
+    screenRes: [1216, 2640],
+    batteryMah: 7500,
+    cornerMm: 14,
+    accent: '#4f6b4a', // Relaxing Matcha
+    accentName: 'Relaxing Matcha',
   },
 
   // --- Honor Magic line ---
